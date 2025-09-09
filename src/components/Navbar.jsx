@@ -119,40 +119,7 @@ const Navbar = () => {
                 {item}
               </a>
             ))}
-            <a href="#contact">
-              <motion.button
-                className="relative z-10 px-6 py-2 bg-gray-900 text-white font-medium rounded-full overflow-hidden mt-4 w-full"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Hire Me
-                {/* Animated Gradient Border */}
-                <motion.div
-                  className="absolute inset-0 rounded-full"
-                  animate={{
-                    background: [
-                      "linear-gradient(90deg, #4ade80, #22d3ee, #818cf8, #c084fc, #f472b6, #4ade80)",
-                      "linear-gradient(90deg, #22d3ee, #818cf8, #c084fc, #f472b6, #4ade80, #22d3ee)",
-                      "linear-gradient(90deg, #818cf8, #c084fc, #f472b6, #4ade80, #22d3ee, #818cf8)",
-                      "linear-gradient(90deg, #c084fc, #f472b6, #4ade80, #22d3ee, #818cf8, #c084fc)",
-                      "linear-gradient(90deg, #f472b6, #4ade80, #22d3ee, #818cf8, #c084fc, #f472b6)",
-                      "linear-gradient(90deg, #4ade80, #22d3ee, #818cf8, #c084fc, #f472b6, #4ade80)"
-                    ],
-                  }}
-                  transition={{
-                    duration: 6,
-                    repeat: Infinity,
-                    ease: "linear"
-                  }}
-                  style={{
-                    padding: "2px",
-                    mask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                    maskComposite: "exclude",
-                    WebkitMaskComposite: "exclude"
-                  }}
-                />
-              </motion.button>
-            </a>
+           
           </div>
         </motion.div>
       )}
