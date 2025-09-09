@@ -90,7 +90,7 @@ const Hero = () => {
   );
 
   return (
-    <section id="home" className='relative h-[700px] bg-gray-900 overflow-hidden'>
+    <section id="home" className='relative h-[700px] bg-gray-900 overflow-hidden mt-18'>
       {/* Particles Background */}
       <div className="absolute inset-0 z-0">
         <Particles
